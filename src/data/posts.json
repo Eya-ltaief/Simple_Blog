@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "image": "/assets/post5.jpg",
+      "Link": "https://www.newscientist.com/article/2362322-spacex-launches-crew-6-astronaut-team-to-international-space-station/",
+      "date":"2 March 2023",
+      "headline":"SpaceX launches Crew-6 astronaut team",
+      "description":"An international team of astronauts launched towards the International Space Station this morning in Space X’s Crew Dragon Endeavour capsule on top of a Falcon 9 rocket",
+      "keywords": ["Keyword 1", "Keyword 2", "Keyword 3"]
+    },
+    {
+      "id": 2,
+      "image": "/assets/post2.jpg",
+      "Link": "https://www.newscientist.com/article/2374607-ai-passed-an-advertising-turing-test-for-the-first-time/",
+      "date":"23 May 2023",
+      "headline":"AI passed an advertising Turing test for the first time",
+      "description":"AI-generated ads fooled marketing experts and outperformed typical US print ads on a test that measured creativity and potential to spur emotional responses",
+      "keywords": ["Keyword 1", "Keyword 2", "Keyword 3"]
+    },
+    {
+      "id": 3,
+      "image": "/assets/post4.jpg",
+      "Link": "https://www.newscientist.com/article/2371878-memcomputer-chips-could-solve-tasks-that-defeat-conventional-computers/",
+      "date":"22 May 2023",
+      "headline":"chips to defeat conventional computers",
+      "description":"An alternative form of computer chip called a memcomputer could offer benefits over existing machines, and now a proof-of-principle digital memcomputer",
+      "keywords": ["Keyword 1", "Keyword 2", "Keyword 3"]
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Product 1",
+      "price": 19.99
+    },
+    {
+      "id": "p2",
+      "name": "Product 2",
+      "price": 24.99
+    },
+    {
+      "id": "p3",
+      "name": "Product 3",
+      "price": 14.99
+    }
+  ]
+}
