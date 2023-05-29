@@ -1,20 +1,21 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import LandingPage from './Pages/LandingPage';
+import { useAuth0 } from "@auth0/auth0-react";
+import Profile from './Pages/Profile';
+import Loading from './components/Spinner';
 
-import BasicExample from './components/Header';
-import Hero from './components/Hero';
-import Headline from './components/Headline';
-import Posts from './components/Posts';
-import NewsCarousel from './components/NewsCarousel';
 function App() {
+   const { isAuthenticated, isLoading } = useAuth0();
+
+  if (isLoading) {
+    return <div><Loading /></div>;
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <BasicExample/>
-        <Headline/>
-        <Hero/>
-        <Posts/>
-        <NewsCarousel/>
+         {isAuthenticated? <Profile/> : <LandingPage/>}  
       </header>
     </div>
   );

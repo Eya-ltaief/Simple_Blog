@@ -17,6 +17,33 @@
 .carousel-img{
     height: 80vh !important;
 }
-.navbar-nav .nav-link{
-    color: blanchedalmond !important;
+.parent-footer{
+    position: relative;
+    margin-top: 4.5rem !important;
+    margin-bottom: -26px !important;
+}
+.footer{
+  
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+.footer-form{
+    width: 360px !important;
+}
+.footer-body{
+background-color: #0d0d0e;
+ padding-bottom: 80px;
+ margin-bottom :0;
+}
+.footer-link{
+    color: white;
+}
+.spinner{
+   
+  width: 4rem !important;
+  height: 4rem !important;
+
 }
