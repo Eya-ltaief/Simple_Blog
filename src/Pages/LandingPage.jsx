@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from "../components/Header"
-import Headline from '../components/Headline'
-import Hero from '../components/Hero'
-import Posts from '../components/Posts'
-import NewsCarousel from '../components/NewsCarousel'
-import Footer from '../components/Footer'
+import Header from "../components/LandingPageComp/Header"
+import Headline from '../components/LandingPageComp/Headline'
+import Hero from '../components/LandingPageComp/Hero'
+import Posts from '../components/LandingPageComp/Posts'
+import NewsCarousel from '../components/LandingPageComp/NewsCarousel'
+import Footer from '../components/LandingPageComp/Footer'
 
 const LandingPage = () => {
   return (

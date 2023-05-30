@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
 import App from './App';
 import { Auth0Provider } from "@auth0/auth0-react";
 
@@ -17,7 +16,7 @@ root.render(
     }}
   >
     <App />
-  </Auth0Provider>,
+  </Auth0Provider>
   </React.StrictMode>
 );
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Image, Row, Col} from 'react-bootstrap'
-import heroImg from '../asset/herosSection.jpg'
-import "../App.css"
+import heroImg from '../../asset/herosSection.jpg'
+import "../../App.css"
 const Hero = () => {
   return (
     <div className='container default-spacing' >

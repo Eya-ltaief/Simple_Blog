@@ -4,7 +4,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 import LandingPage from './Pages/LandingPage';
 import { useAuth0 } from "@auth0/auth0-react";
 import Profile from './Pages/Profile';
-import Loading from './components/Spinner';
+import Loading from './components/LoginComp/Spinner';
+
 
 function App() {
    const { isAuthenticated, isLoading } = useAuth0();
@@ -17,6 +18,7 @@ function App() {
       <header className="App-header">
          {isAuthenticated? <Profile/> : <LandingPage/>}  
       </header>
+    <LandingPage/>
     </div>
   );
 }

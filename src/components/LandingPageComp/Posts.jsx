@@ -1,8 +1,8 @@
 import React from 'react'
 import {Row, Col,Image,Button} from 'react-bootstrap'
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import posts from '../data/posts.json'
-import "../App.css"
+import posts from '../../data/posts.json'
+import "../../App.css"
 const Posts = () => {
   return (
     <div className='container default-spacing'>
